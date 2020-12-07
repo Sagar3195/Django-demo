@@ -1,1 +1,1 @@
-web: gunicorn mlproject.wsgi --log-file 
+web: gunicorn mlproject.wsgi --log-file -
