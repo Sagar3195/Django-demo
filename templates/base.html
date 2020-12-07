@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wankruu</title>
+</head>
+<body>
+    <h1>Welcom To MPG</h1>
+
+
+    <form action="{% url 'result' %}">
+        cylinders:  <input type="text" required name="cylinders"><br><br>
+        displacement: <input type="text" required name="displacement"><br><br>
+        horsepower:  <input type="text" required name="horsepower"><br><br>
+        weight:      <input type="text" required name="weight"><br><br>
+        acceleration: <input type="text" required name="acceleration"><br><br>
+        model year:   <input type="text" required name="model year"><br><br>
+        origin:      <input type="text" required name="origin"><br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
